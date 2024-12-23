@@ -2,7 +2,7 @@ plugins {
     id 'java'
 }
 
-group 'com.rioeyu.uessentials'
+group 'com.grassminevn.SkyGenCore'
 version '1.0-SNAPSHOT'
 
 repositories {
@@ -14,7 +14,7 @@ repositories {
 
 dependencies {
     // Thay thế '1.21-R0.1-SNAPSHOT' bằng phiên bản chính xác của Spigot API cho Minecraft 1.21 khi nó có sẵn
-    implementation 'org.spigotmc:spigot-api:1.21-R0.1-SNAPSHOT'
+    implementation 'org.spigotmc:spigot-api:1.16-R0.1-SNAPSHOT'
     testImplementation 'junit:junit:4.13.2'
 }
 
